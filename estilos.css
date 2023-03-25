@@ -10,7 +10,6 @@ body {
     position: relative;
   }
 
-
   .wsp {
     background-image: url(img/wsp.png);
     width: 64px;
@@ -47,7 +46,7 @@ body {
       flex: 25%;
       max-width: 100%;
       padding: 8px;
-      margin: 8px;
+      margin: 4px;
       flex-wrap: wrap;
       justify-content: space-between;
       margin-bottom: 70px;
