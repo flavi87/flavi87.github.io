@@ -6,6 +6,39 @@ body {
 	font-family: stencil, sans-serif;
 	font-size: 0.7rem;
   }
+  .header {
+    position: relative;
+  }
+
+
+  .wsp {
+    background-image: url(img/wsp.png);
+    width: 64px;
+    height: 64px;
+    display: inline-flex;
+    position: absolute;
+    left: 86%;
+    top: 90%;
+  }
+  .face {
+    background-image: url(img/face.png);
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 91%;
+    top: 90%;
+
+  }
+  .insta {
+    background-image: url(img/insta.png);
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    border-radius: 85%;
+    left: 96%;
+    top: 90%;
+
+  }
     .container .img_container {
       width: 450px;
       height: 450px;
@@ -492,11 +525,29 @@ body {
 
    
    
-    @media screen and (max-width:330px){
-      .container {
-        display: flex;
+     @media screen and (max-width:630px){
+      .wsp {
+        background-image: url(img/wsp16.png);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 95%;
+        top: 90%;
       }
-      .container .img_container {
-        display: inline-flex;
+      .insta {
+        background-image: url(img/insta16.png);
+        width: 16px;
+        height: 16px;
+        left: 90%;
+        top: 90%;
       }
+      .face {
+        background-image: url(img/face16.png);
+        width: 16px;
+        height: 16px;
+        left: 85%;
+        top: 90%;
+      }
+    
+  
     }
