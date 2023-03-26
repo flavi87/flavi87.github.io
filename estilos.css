@@ -18,6 +18,7 @@ body {
     position: absolute;
     left: 86%;
     top: 90%;
+    cursor: pointer;
   }
   .face {
     background-image: url(img/face.png);
@@ -26,6 +27,7 @@ body {
     position: absolute;
     left: 91%;
     top: 90%;
+    cursor: pointer;
 
   }
   .insta {
@@ -36,6 +38,7 @@ body {
     border-radius: 85%;
     left: 96%;
     top: 90%;
+    cursor: pointer;
 
   }
     .container .img_container {
