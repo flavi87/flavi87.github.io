@@ -1,4 +1,3 @@
-
 const main_img = document.querySelector('.main_img')
 const thumbnails = document.querySelectorAll('.thumbnail')
 
@@ -168,5 +167,22 @@ thumbnails1.forEach(thumb => {
             main_img12.src = this.src
         })
       })
-    
-    
+
+
+const imagen = document.getElementById("imagen");
+imagen.addEventListener("click", function() {
+  const enlace = this.parentNode.href;
+  window.open("https://wa.me/5493329543968", "_blank");
+})
+
+const imagen1 = document.getElementById("imagen1");
+imagen1.addEventListener("click", function() {
+  const enlace = this.parentNode.href;
+  window.open("https://www.facebook.com/CarraroLioiAutomotores", "_blank");
+})
+
+const imagen2 = document.getElementById("imagen2");
+imagen2.addEventListener("click", function() {
+  const enlace = this.parentNode.href;
+  window.open("https://www.instagram.com/", "_blank");
+})
