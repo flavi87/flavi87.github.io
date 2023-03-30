@@ -73,7 +73,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -81,7 +81,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -98,8 +98,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container .thumbnail{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -107,8 +107,8 @@ body {
       
     }
     .container .thumbnail_container1 .thumbnail1{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -133,7 +133,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -144,8 +144,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container2 .thumbnail2{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -170,8 +170,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
-      
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
     }
     .container .thumbnail_container3 {
@@ -181,8 +180,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container3 .thumbnail3{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -208,7 +207,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -219,8 +218,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container4 .thumbnail4{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -246,7 +245,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -257,8 +256,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container5 .thumbnail5{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -283,7 +282,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -294,8 +293,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container6 .thumbnail6{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -320,7 +319,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -331,8 +330,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container7 .thumbnail7{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -357,7 +356,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -368,8 +367,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container8 .thumbnail8{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -394,7 +393,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -405,8 +404,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container9 .thumbnail9{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -431,7 +430,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -442,8 +441,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container10 .thumbnail10{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -468,7 +467,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -479,8 +478,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container11 .thumbnail11{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
@@ -505,7 +504,7 @@ body {
       width: 100%;
       height: 100%;
       border-radius: 5px;
-      box-shadow: 0 5px 5px rgba(150, 190, 238, 0.6);
+      box-shadow: 0px 5px 5px 5px rgba(150, 190, 238, 0.6);
       
       
     }
@@ -516,8 +515,8 @@ body {
       opacity: 1 !important;
     }
     .container .thumbnail_container12 .thumbnail12{
-      height: 80px;
-      width: 80px;
+      height: 74px;
+      width: 74px;
       border-radius: 5px;
       cursor: pointer;
       justify-content: space-between;
