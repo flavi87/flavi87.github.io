@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.luilogo {
+  height: 1000px;
+  width: auto;
+}
+.luilogo img{
+  max-height: 100%;
+  width: auto;
+}
+
+
+.contenedor img {
+  max-width: 1900px;
+  width: 100vw;
+  height: auto;
+}
+.textos {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(32, 138, 6);
+  font-size: 20px;
+  text-align: left;
+  justify-content: first baseline;
+  z-index: 1;
+  border: 2px #fff;
+}
+
+.textos p {
+  margin: 0;
+  padding: 5px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.certificados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 800px;
+}
+
+.certificados > div {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.sello img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .certificados > div {
+    width: 25%;
+  }
+  .luilogo {
+    height: 300px;
+    width: auto;
+  }
+.textos {
+  display: none;
+}
+}
+.clientes {
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(18, 116, 9);
+}
+
+.clientes .imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 100px);
+}
+
+.clientes .imagenes img {
+  width: 80px;
+  height: 80px;
+}
+
+
+/*
+.certificados {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certificados > div {
+  width: 20vw;
+  height: 20vh;
+  padding: 10px;
+}
+
+.sello {
+  align-self: flex-end;
+}
+
+.sello img {
+  display: block;
+  margin-bottom: 10px;
+}
+*/
+
+.menu-container {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  width: 10%;
+  height: 40px;
+  background-color: rgb(18, 116, 9);
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(18, 116, 9);
+  list-style: none;
+}
+
+.menu-dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-container:hover .menu-dropdown {
+  display: block;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+
+.menu-icon::before {
+  top: -6px;
+}
+
+.menu-icon::after {
+  bottom: -6px;
+}
+
+/*.menu-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(18, 116, 9);
+  cursor: pointer;
+  border-radius: 30%;
+  float: calc(70% 10%);
+}
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(18, 116, 9);
+  list-style: none;
+}
+
+.menu-dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-container:hover .menu-dropdown {
+  display: block;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 2px;
+  background-color: white;
+
+}
+
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+
+.menu-icon::before {
+  top: -6px;
+}
+
+.menu-icon::after {
+  bottom: -6px;
+}
