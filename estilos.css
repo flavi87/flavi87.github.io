@@ -2,52 +2,66 @@
   margin: 0;
   padding: 0;
 }
-.luilogo {
-  height: 1000px;
-  width: auto;
-}
-.luilogo img{
-  max-height: 100%;
-  width: auto;
-}
-
-
-.contenedor img {
-  max-width: 1900px;
-  width: 100vw;
-  height: auto;
-}
-.textos {
-  position: absolute;
-  top: 70%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  color: rgb(32, 138, 6);
-  font-size: 20px;
-  text-align: left;
-  justify-content: first baseline;
-  z-index: 1;
-  border: 2px #fff;
-}
-
-.textos p {
+* {
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 
-img {
+.contenedor {
+  position: relative;
+}
+
+.contenedor .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.contenedor .fondo {
   display: block;
   width: 100%;
-  height: auto;
+  height: 50vh;
 }
 
+.contenedor .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60%; /* Ahora ocupa el 75% del ancho del contenedor */
+  height: 10%; /* Ahora ocupa el 60% de la altura del contenedor */
+  padding: 10px;
+  display: flex; /* Ahora usamos flexbox para alinear verticalmente el contenido */
+  flex-direction: column; /* Los elementos se alinean verticalmente */
+  justify-content: flex-end; /* El contenido se alinea en la parte inferior del contenedor */
+}  
+
+.contenedor .info h4 {
+  padding: 1px 2px;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: rgb(18, 116, 9);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+
+
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  z-index: 2;
 }
 .certificados {
   display: flex;
@@ -55,6 +69,10 @@ img {
   justify-content: space-between;
   align-items: flex-start;
   max-height: 800px;
+  font-family: sans-serif;
+}
+.lulo {
+align-items: flex-end;
 }
 
 .certificados > div {
@@ -63,76 +81,34 @@ img {
 }
 
 .sello img {
+  width: 100vw;
   max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .certificados > div {
-    width: 25%;
+    width: 100%;
+    background-color: rgb(18, 116, 9);
   }
-  .luilogo {
-    height: 300px;
-    width: auto;
+
+}
+@media screen and (max-width: 480px) {
+  .contenedor .parrafos p {
+  width: 50%;
   }
-.textos {
-  display: none;
-}
-}
-.clientes {
-  width: 100%;
-  max-width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgb(18, 116, 9);
-}
+  }
 
-.clientes .imagenes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: calc(100% - 100px);
-}
-
-.clientes .imagenes img {
-  width: 80px;
-  height: 80px;
-}
-
-
-/*
-.certificados {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.certificados > div {
-  width: 20vw;
-  height: 20vh;
-  padding: 10px;
-}
-
-.sello {
-  align-self: flex-end;
-}
-
-.sello img {
-  display: block;
-  margin-bottom: 10px;
-}
-*/
 
 .menu-container {
   position: fixed;
   top: 10px;
-  right: 0;
+  right: 10px;
   width: 10%;
   height: 40px;
   background-color: rgb(18, 116, 9);
   cursor: pointer;
   border-radius: 30%;
+  z-index: 1;
 }
 
 .menu-dropdown {
@@ -170,71 +146,6 @@ img {
   width: 20px;
   height: 2px;
   background-color: white;
-}
-
-.menu-icon::before,
-.menu-icon::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 2px;
-  background-color: white;
-}
-
-.menu-icon::before {
-  top: -6px;
-}
-
-.menu-icon::after {
-  bottom: -6px;
-}
-
-/*.menu-container {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background-color: rgb(18, 116, 9);
-  cursor: pointer;
-  border-radius: 30%;
-  float: calc(70% 10%);
-}
-
-.menu-dropdown {
-  display: none;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  padding: 0;
-  margin: 0;
-  background-color: rgb(18, 116, 9);
-  list-style: none;
-}
-
-.menu-dropdown li {
-  margin: 0;
-  padding: 0;
-}
-
-.menu-dropdown li a {
-  display: block;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-}
-
-.menu-container:hover .menu-dropdown {
-  display: block;
-}
-
-.menu-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20px;
-  height: 2px;
-  background-color: white;
-
 }
 
 .menu-icon::before,
