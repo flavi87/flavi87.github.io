@@ -18,6 +18,7 @@
     border-radius: 50%;
 }
 .cabecera h4 {
+  margin: 0;
   margin-top: 60px;
   width: 60%;
   padding: 50px 26px;
@@ -211,6 +212,7 @@
           background-repeat: no-repeat;
         }
         .cabecera h4 {
+          margin: 0;
           width: 90%;
           padding: 30px 20px;
           font-size: 18px;
@@ -347,6 +349,7 @@
         background-repeat: no-repeat;
       }
       .cabecera h4 {
+        margin: 0;
         width: 90%;
         padding: 30px 20px;
         font-size: 18px;
