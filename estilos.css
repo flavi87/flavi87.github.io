@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* prueba */
+.fantasma {
+  margin-left: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(18, 116, 9);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(8, 82, 2);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pie {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.pie h4 {
+
+  margin-top: 0;
+  font-size: 12px;
+}
+.pie h4:first-child {
+  margin-top: 0;
+  bottom: 0;
+  right: 20px;
+  font-size: 32px;
+}
+
+.pie h4:last-child {
+  margin-top: 0;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  font-size: 12px;
+}
+/* fin */
+.body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos {
+  margin: -5;
+  position: relative;
+}
+
+.productos img {
+  width: 100%;
+  height: 39vh;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 98.9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+
+.texto-superpuesto p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.texto-superpuesto a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.texto-superpuesto a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.cabecera {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/extintores-de-incendios-.jpg");
+    background-size: cover;
+}
+.cabecera img {
+    width: 21%;
+    height: auto;
+    border-radius: 47.8%;
+}
+.cabecera h4 {
+  margin: 0;
+  margin-top: 40px;
+  width: 60%;
+  padding: 50px 26px;
+  background-color: rgba(204, 202, 202, 0.5);
+  color: rgb(18, 116, 9);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0px;
+}
+
+.certificados {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.certificados img{
+    width: 49.55vw;
+    height: 400px;
+}
+.sello1 {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    font-size: 1vw;
+    position: relative;
+  }
+  
+  .sello1 h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 116, 9);
+    border: 1px solid #ccc;
+  }
+  
+  .sello2 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1vw;
+    position: relative;
+  }
+  
+  .sello2 h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 116, 9);
+    border: 1px solid #ccc;
+  }
+  
+
+  /*********** wsp **********/
+  .whatsapp {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp:hover {
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 780px) {
+    .pie h4:first-child {
+      margin-top: 0;
+      bottom: 0;
+      right: 20px;
+      font-size: 32px;
+    }
+    
+    .pie h4:last-child {
+      margin-top: 0;
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+      font-size: 9px;
+    }
+
+    .productos {
+      margin: -5;
+      position: relative;
+    }
+    
+    .productos img {
+      width: 100%;
+      height: 39vh;
+    }
+    
+    .texto-superpuesto {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40%;
+      height: 98%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-align: center;
+    }
+    
+    .texto-superpuesto p {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .texto-superpuesto a {
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #fff;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp {
+      display: block;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      width: 40px;
+      height: 40px;
+      background-color: green;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 24px;
+      line-height: 42px;
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .whatsapp:hover {
+      transform: scale(1.1);
+    }
+
+    
+    .seccion {
+        width: 100%; /* establece un ancho máximo para cada sección */
+        font-size: 0.8em; /* reduce el tamaño de la fuente */
+      }
+      
+      .cabecera .parrafos p {
+      width: 50%;
+      }
+      .cabecera {
+          position: relative;
+          width: 100%;
+          height: 60vh;
+          background-image: url("img/extintores-de-incendios-.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .cabecera h4 {
+          margin: 0;
+          width: 90%;
+          padding: 30px 20px;
+          font-size: 18px;
+        }
+        .certificados {
+          display: grid;
+        }
+        
+        .certificados img {
+          width: 100%;
+          height: auto;
+        }
+        .certificados h4 {
+          font-size: 2.8em;
+        }
+    
+    .cabecera .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35%;
+      height: auto;
+      border-radius: 50%;
+    }
+    
+    .cabecera .cuadro1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60%; /* Ahora ocupa el 75% del ancho del contenedor */
+      height: 10%; /* Ahora ocupa el 60% de la altura del contenedor */
+      padding: 10px;
+      display: flex; /* Ahora usamos flexbox para alinear verticalmente el contenido */
+      flex-direction: column; /* Los elementos se alinean verticalmente */
+      justify-content: flex-end; /* El contenido se alinea en la parte inferior del contenedor */
+    }  
+    
+    .cabecera .cuadro1 h4 {
+      padding: 1px 2px;
+      background-color: rgba(128, 128, 128, 0.5);
+      color: rgb(18, 116, 9);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: left;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10px;
+    }  
+    .productos img{
+      width: 100%;
+      height: 25vh;
+    }
+
+  
+  }
+  @media screen and (max-width: 480px) {
+    .pie h4:first-child {
+      margin-top: 0;
+      bottom: 0;
+      right: 20px;
+      font-size: 32px;
+    }
+    
+    .pie h4:last-child {
+      margin-top: 0;
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+      font-size: 9px;
+    }
+    
+    .productos {
+      margin: -5;
+      position: relative;
+    }
+    
+    .productos img {
+      width: 100%;
+      height: 39vh;
+    }
+    
+    .texto-superpuesto {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40%;
+      height: 97.8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-align: center;
+    }
+    
+    .texto-superpuesto p {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .texto-superpuesto a {
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #fff;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+  
+    .seccion {
+      width: 100%; /* establece un ancho máximo para cada sección */
+      font-size: 0.8em; /* reduce el tamaño de la fuente */
+    }
+    
+    .cabecera .parrafos p {
+    width: 50%;
+    }
+    .cabecera {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        background-image: url("img/extintores-de-incendios-.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .cabecera h4 {
+        margin: 0;
+        width: 90%;
+        padding: 30px 20px;
+        font-size: 18px;
+      }
+      .certificados {
+        display: grid;
+      }
+      
+      .certificados img {
+        width: 100%;
+        height: auto;
+      }
+      .certificados h4 {
+        font-size: 2.8em;
+      }
+    
+    .cabecera .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 45%;
+      height: auto;
+      border-radius: 50%;
+    }
+    
+    .cabecera .cuadro1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60%; /* Ahora ocupa el x% del ancho del contenedor */
+      height: 10%; /* Ahora ocupa el x% de la altura del contenedor */
+      padding: 10px;
+      display: flex; /*usamos flexbox para alinear verticalmente el contenido */
+      flex-direction: column; /* Los elementos se alinean verticalmente */
+      justify-content: flex-end; /* El contenido se alinea en la parte inferior del contenedor */
+    }  
+    
+    .cabecera .cuadro1 h4 {
+      padding: 1px 2px;
+      background-color: rgba(224, 224, 224, 0.5);
+      color: rgb(18, 116, 9);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: left;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10px;
+    }
+    .productos img{
+      width: 100%;
+      height: 25vh;
+    }
+    
+    
+    }
+  
