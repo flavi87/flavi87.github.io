@@ -97,6 +97,7 @@ function loadMusic(song) {
 function changeMusic(direction) {
   musicIndex = (musicIndex + direction + songs.length) % songs.length;
   loadMusic(songs[musicIndex]);
+  playMusic();
 }
 
 function playNextMusic() {
