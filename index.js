@@ -14,25 +14,25 @@ const music = new Audio();
 const songs = [
   {
     path: 'assets/1.mp3',
-    displayName: 'A Brindar',
+    displayName: 'Vamos a Brindar',
     cover: 'assets/atomicos.png',
     artist: 'Atomicos',
   },
   {
     path: 'assets/2.mp3',
-    displayName: 'Contigo',
+    displayName: 'Apago',
     cover: 'assets/atomicos.png',
     artist: 'Atomicos',
   },
   {
     path: 'assets/3.mp3',
-    displayName: 'Ni Idea',
+    displayName: 'Donde Andaras',
     cover: 'assets/atomicos.png',
     artist: 'Atomicos',
   },
   {
     path: 'assets/4.mp3',
-    displayName: 'Resaca',
+    displayName: 'Resaka',
     cover: 'assets/atomicos.png',
     artist: 'Atomicos',
   },
@@ -44,13 +44,13 @@ const songs = [
   },
   {
     path: 'assets/6.mp3',
-    displayName: 'Todavia',
+    displayName: 'Buena Suerte',
     cover: 'assets/atomicos.png',
     artist: 'Atomicos',
   },
   {
     path: 'assets/7.mp3',
-    displayName: 'Todo Termina',
+    displayName: 'Otra noche mas',
     cover: 'assets/atomicos.png',
     artist: 'Atomicos',
   },
